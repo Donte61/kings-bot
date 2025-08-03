@@ -1,0 +1,53 @@
+{
+    "b551aa23-d83d-4599-9fc6-c4ba6d035a15": {
+        "id": "b551aa23-d83d-4599-9fc6-c4ba6d035a15",
+        "name": "vay",
+        "description": "vay",
+        "actions": [
+            {
+                "id": "525a48a0-ab65-4595-bf2b-ccc141f608bf",
+                "action_type": "template_click",
+                "parameters": {
+                    "template": "hospital_button.png",
+                    "description": "Hospital'a git"
+                },
+                "description": "",
+                "enabled": true,
+                "retry_count": 0,
+                "max_retries": 3,
+                "timeout": 30.0
+            },
+            {
+                "id": "2de39b2a-8924-405c-8a05-1834e182d05a",
+                "action_type": "template_click",
+                "parameters": {
+                    "template": "heal_all_button.png",
+                    "description": "Heal All'a tıkla"
+                },
+                "description": "",
+                "enabled": true,
+                "retry_count": 0,
+                "max_retries": 3,
+                "timeout": 30.0
+            },
+            {
+                "id": "a52b77c4-9318-41b3-adf7-3714efc7266a",
+                "action_type": "template_click",
+                "parameters": {
+                    "template": "confirm_button.png",
+                    "description": "Healing'i onayla"
+                },
+                "description": "",
+                "enabled": true,
+                "retry_count": 0,
+                "max_retries": 3,
+                "timeout": 30.0
+            }
+        ],
+        "variables": {},
+        "created_at": "2025-08-01T07:49:49.326195",
+        "modified_at": "2025-08-01T07:49:49.328196",
+        "tags": [],
+        "enabled": true
+    }
+}

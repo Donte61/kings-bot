@@ -1,0 +1,83 @@
+{
+    "auto_resource_gathering": {
+        "enabled": true,
+        "gather_types": [
+            "food",
+            "wood",
+            "iron",
+            "silver"
+        ],
+        "march_count": 4,
+        "duration_hours": 8,
+        "hero_selection": "auto"
+    },
+    "alliance_help": {
+        "enabled": true,
+        "help_all_interval": 300,
+        "request_help": true,
+        "alliance_shop": true
+    },
+    "daily_tasks": {
+        "enabled": true,
+        "vip_chest": true,
+        "free_chests": true,
+        "dragon_lair": true,
+        "alliance_gifts": true,
+        "daily_quests": true
+    },
+    "hero_development": {
+        "enabled": true,
+        "auto_level_up": true,
+        "talent_allocation": "balanced",
+        "equipment_upgrade": true,
+        "skill_priority": [
+            "attack",
+            "defense",
+            "health"
+        ]
+    },
+    "troop_training": {
+        "enabled": true,
+        "training_queue": [
+            "spearman",
+            "archer",
+            "cavalry"
+        ],
+        "maintain_ratio": true,
+        "hospital_check": true
+    },
+    "research": {
+        "enabled": true,
+        "research_priority": [
+            "military",
+            "economy",
+            "defense"
+        ],
+        "auto_research": true
+    },
+    "building_upgrade": {
+        "enabled": true,
+        "upgrade_priority": [
+            "castle",
+            "resource_buildings",
+            "military"
+        ],
+        "resource_requirement_check": true
+    },
+    "alliance_war": {
+        "auto_participate": true,
+        "target_selection": "auto",
+        "march_coordination": true,
+        "shield_management": true
+    },
+    "safety": {
+        "anti_detection": true,
+        "random_delays": true,
+        "human_like_movements": true,
+        "break_intervals": [
+            30,
+            60
+        ],
+        "daily_limit_hours": 8
+    }
+}

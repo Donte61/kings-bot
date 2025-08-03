@@ -1,0 +1,73 @@
+{
+    "confidence_threshold": 0.75,
+    "learning_enabled": true,
+    "cache_enabled": true,
+    "template_matching_threshold": 0.8,
+    "adaptive_threshold": true,
+    "edge_detection": true,
+    "color_analysis": true,
+    "motion_detection": true,
+    "classes": {
+        "ui_elements": [
+            "button",
+            "menu",
+            "popup",
+            "dialog",
+            "toolbar"
+        ],
+        "game_objects": [
+            "enemy",
+            "ally",
+            "resource",
+            "building",
+            "hero"
+        ],
+        "actions": [
+            "attack",
+            "defend",
+            "gather",
+            "build",
+            "upgrade"
+        ],
+        "states": [
+            "healthy",
+            "damaged",
+            "ready",
+            "busy",
+            "locked"
+        ]
+    },
+    "detection_regions": {
+        "ui_area": {
+            "x": 0,
+            "y": 0,
+            "width": 100,
+            "height": 20
+        },
+        "game_area": {
+            "x": 0,
+            "y": 20,
+            "width": 100,
+            "height": 70
+        },
+        "inventory_area": {
+            "x": 80,
+            "y": 0,
+            "width": 20,
+            "height": 100
+        },
+        "chat_area": {
+            "x": 0,
+            "y": 90,
+            "width": 60,
+            "height": 10
+        }
+    },
+    "advanced_features": {
+        "multi_scale_detection": true,
+        "rotation_invariant": true,
+        "noise_reduction": true,
+        "contrast_enhancement": true,
+        "adaptive_learning": true
+    }
+}

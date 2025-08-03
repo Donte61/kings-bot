@@ -1,0 +1,74 @@
+# Kings Mobile Bot Pro - Git Ignore File
+
+# Kişisel Ayarlar ve Kullanıcı Verileri
+users.json
+user_data.json
+settings.json
+personal_settings.json
+
+# Log Dosyaları
+*.log
+logs/
+crash_logs/
+
+# Cache Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Veritabanı Dosyaları
+*.db
+*.sqlite
+*.sqlite3
+analytics.db
+
+# Geçici Dosyalar
+*.tmp
+*.temp
+temp/
+screenshots/
+captures/
+
+# Manuel Kayıtlar (Kişisel)
+manual_recordings.json
+recording_exports/
+
+# Windows Dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Emülatör ve Sistem Dosyaları
+*.exe
+*.msi
+emulator_installs/
+
+# IDE ve Editör Dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Lisans ve Güvenlik
+license_key.txt
+api_keys.json
+secrets.json
+
+# Çıktı Dosyaları
+dist/
+build/
+*.exe
+*.msi
+
+# Test Dosyaları
+test_results/
+coverage/
+
+# Backup Dosyaları
+*.bak
+*.backup
+backup/

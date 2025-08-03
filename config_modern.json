@@ -1,0 +1,197 @@
+{
+    "version": "2.0.0",
+    "app_name": "King Bot Pro - Modern Edition",
+    
+    "display_settings": {
+        "game_area_region": [1227, 30, 1797, 1040],
+        "last_resort_x": 1732,
+        "last_resort_y": 980,
+        "auto_detect_game_window": true,
+        "screenshot_optimization": true,
+        "high_dpi_awareness": true
+    },
+    
+    "emulator_settings": {
+        "auto_start_emulator": false,
+        "preferred_emulator": "BlueStacks",
+        "emulator_optimization": true,
+        "cpu_priority_boost": true,
+        "memory_optimization": true,
+        "close_unnecessary_processes": false
+    },
+    
+    "task_configurations": {
+        "dunyaheal": {
+            "enabled": false,
+            "confidence": 0.7,
+            "interval_minutes": 30,
+            "max_retries": 3,
+            "priority": "normal"
+        },
+        "healing": {
+            "enabled": false,
+            "confidence": 0.75,
+            "interval_minutes": 5,
+            "max_retries": 2,
+            "priority": "high"
+        },
+        "daily": {
+            "enabled": false,
+            "confidence": 0.75,
+            "interval_minutes": 60,
+            "max_retries": 3,
+            "priority": "normal"
+        },
+        "kutu": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 15,
+            "max_retries": 2,
+            "priority": "normal"
+        },
+        "anahtar": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 20,
+            "max_retries": 2,
+            "priority": "normal"
+        },
+        "asker": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 45,
+            "max_retries": 3,
+            "priority": "normal"
+        },
+        "bekcikulesi": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 30,
+            "max_retries": 2,
+            "priority": "normal"
+        },
+        "mesaj": {
+            "enabled": true,
+            "confidence": 0.8,
+            "interval_minutes": 10,
+            "max_retries": 1,
+            "priority": "low"
+        },
+        "savas": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 60,
+            "max_retries": 3,
+            "priority": "high"
+        },
+        "ittifak": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 30,
+            "max_retries": 2,
+            "priority": "normal"
+        },
+        "suadasi": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 45,
+            "max_retries": 2,
+            "priority": "normal"
+        },
+        "askerbas": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 120,
+            "max_retries": 3,
+            "priority": "high"
+        },
+        "fetih": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 180,
+            "max_retries": 3,
+            "priority": "critical"
+        },
+        "isyanci": {
+            "enabled": false,
+            "confidence": 0.8,
+            "interval_minutes": 90,
+            "max_retries": 2,
+            "priority": "normal"
+        }
+    },
+    
+    "ui_settings": {
+        "theme": "modern_dark",
+        "window_transparency": false,
+        "minimize_to_tray": true,
+        "auto_save_logs": true,
+        "log_max_lines": 1000,
+        "show_performance_stats": true,
+        "animation_effects": true
+    },
+    
+    "performance_settings": {
+        "max_concurrent_tasks": 3,
+        "task_execution_delay": 0.5,
+        "screenshot_cache_duration": 2.0,
+        "template_cache_size": 100,
+        "enable_gpu_acceleration": false,
+        "memory_usage_limit_mb": 512
+    },
+    
+    "safety_settings": {
+        "enable_failsafe": true,
+        "failsafe_corner": "top_left",
+        "max_daily_runtime_hours": 12,
+        "break_interval_minutes": 60,
+        "break_duration_minutes": 5,
+        "randomize_timing": true,
+        "human_like_mouse_movement": true
+    },
+    
+    "advanced_settings": {
+        "image_enhancement": true,
+        "multi_scale_template_matching": true,
+        "adaptive_confidence_adjustment": true,
+        "auto_region_detection": false,
+        "background_processing": true,
+        "smart_retry_logic": true
+    },
+    
+    "logging_settings": {
+        "log_level": "INFO",
+        "log_to_file": true,
+        "log_to_console": true,
+        "max_log_file_size_mb": 10,
+        "log_backup_count": 5,
+        "detailed_error_logging": true
+    },
+    
+    "network_settings": {
+        "check_updates_on_startup": true,
+        "auto_download_updates": false,
+        "update_check_interval_hours": 24,
+        "connection_timeout_seconds": 30,
+        "retry_failed_connections": true
+    },
+    
+    "shortcuts": {
+        "emergency_stop": "Ctrl+Shift+S",
+        "pause_resume": "Ctrl+P",
+        "show_hide_window": "Ctrl+H",
+        "take_screenshot": "Ctrl+T",
+        "open_logs": "Ctrl+L"
+    },
+    
+    "experimental_features": {
+        "ai_powered_recognition": false,
+        "predictive_task_scheduling": false,
+        "auto_game_window_detection": false,
+        "machine_learning_optimization": false,
+        "cloud_sync": false
+    },
+    
+    "last_updated": "2025-01-31T12:00:00Z",
+    "config_version": "2.0.0"
+}
