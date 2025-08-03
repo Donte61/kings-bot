@@ -52,24 +52,19 @@
 
 #### Educational Support Team
 ```
-📧 Email: educational-support@donte61.dev
+
 📋 Subject Format: [EDUCATIONAL] Your Question Topic
 ⏰ Response Time: 24-48 hours for educational queries
 🌍 Languages: English, Turkish
 ```
 
-#### Academic Collaboration
-```
-🎓 For Universities: academic-partnerships@donte61.dev
-🏫 For Schools: school-programs@donte61.dev
-📚 For Researchers: research-collaboration@donte61.dev
+
 ```
 
 ### 💬 Social Media & Updates
 
 #### Follow for Educational Content
 - **📺 YouTube**: [Educational Programming Tutorials](#)
-- **📱 Twitter**: [@Donte61Dev](https://twitter.com/donte61dev) - Educational updates
 - **💼 LinkedIn**: [Professional Updates](#)
 - **📘 Medium**: [Technical Articles and Tutorials](#)
 
@@ -810,3 +805,4 @@ Herhangi bir sorun yaşarsanız:
 *Made with ❤️ by DonTe*
 
 </div>
+
